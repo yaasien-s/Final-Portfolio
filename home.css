@@ -53,7 +53,7 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(41, 41, 41);
+  background: #111;
   transition: 0.5s;
   z-index: 2;
 }
@@ -79,16 +79,17 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #363636;
+  background: #2e2e2e;
   mix-blend-mode: overlay;
   background-image: url(E1XW7TEWUAUpAt9.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .text
 {
   position: relative;
   z-index: 10;
+  margin-right: 250px;
 }
 
 .text h2
@@ -185,7 +186,7 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #868686; 
+  color: #3f3f3f; 
 }
 
 @media (max-width: 991px)
@@ -202,5 +203,9 @@ header .logo
   .text h3
   {
     font-size: 2em;
+  }
+
+  .overlay{
+      background-position: center;
   }
 }

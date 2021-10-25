@@ -152,7 +152,7 @@ header .logo
 .social li a
 {
   /* display: inline-block; */
-  /* margin-right: 80px;  */
+   margin-right: 80px;
   float: right;
   filter: invert(1);
   transform: scale(0.5);

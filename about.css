@@ -53,7 +53,7 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(34, 34, 34);
+  background: rgb(46, 46, 46);
   transition: 0.5s;
   z-index: 2;
 }
@@ -62,6 +62,16 @@ header .logo
   right: 300px;
 }
 
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
 .overlay
 {
   position: absolute;
@@ -69,11 +79,70 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2e2e2e;
+  background: #3a3a3a;
   mix-blend-mode: overlay;
-  background-image: url(E1XW7TEWUAUpAt9.jpg);
+  /* background-image: url(E1XW7TEWUAUpAt9.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+  margin-right: 180px;
+  
+}
+
+/* .text h2
+{
+  font-size: 4.5em;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+} */
+.text p
+{
+  font-size: 1.13em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 200;
+  /* max-width: 700px; */
+}
+/* .text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+  color: #3a3a3a;
+ background-color: transparent;
+} */
+
+img{
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social
@@ -81,9 +150,9 @@ header .logo
   position: absolute;
   z-index: 10;
   bottom: 20px;
-  left: 20px;
-  display: flex;
-  /* justify-content: center; */
+  right: 20px;
+  /* display: flex; */
+  justify-content: center;
   align-items: center;
 }
 .social li
@@ -92,8 +161,9 @@ header .logo
 }
 .social li a
 {
-  display: inline-block;
-  margin-right: 20px;
+  /* display: inline-block; */
+   margin-right: 78px;
+  float: right;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
@@ -132,6 +202,7 @@ header .logo
   color: #3f3f3f; 
 }
 
+
 @media (max-width: 991px)
 {
   .showcase,
@@ -139,16 +210,20 @@ header .logo
   {
     padding: 40px;
   }
-  .text h2
+  /* .text h2
   {
     font-size: 2.8em;
   }
   .text h3
   {
     font-size: 1.7em;
-  }
+  } */
 
   .overlay{
       background-position: center;
   }
+
+  /* .social{
+    margin-right: -60px;
+  } */
 }

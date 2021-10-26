@@ -95,7 +95,7 @@ header .logo
 .text h2
 {
   font-size: 4.5em;
-  font-weight: 800;
+  font-weight: 500;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
@@ -103,7 +103,7 @@ header .logo
 .text h3
 {
   font-size: 3.5em;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
@@ -133,6 +133,8 @@ header .logo
 .text a:hover
 {
   letter-spacing: 6px;
+  color: #3a3a3a;
+  /* background-color: transparent; */
 }
 
 .social
@@ -152,7 +154,7 @@ header .logo
 .social li a
 {
   /* display: inline-block; */
-   margin-right: 80px;
+   margin-right: 78px;
   float: right;
   filter: invert(1);
   transform: scale(0.5);
@@ -212,4 +214,8 @@ header .logo
   .overlay{
       background-position: center;
   }
+
+  /* .social{
+    margin-right: -60px;
+  } */
 }

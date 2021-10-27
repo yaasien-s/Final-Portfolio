@@ -24,13 +24,47 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
 }
-.crsl{
-    width: 95%;
-}
+
 h1{
     color: white;
     text-align: center;
 }
+h5{
+    font-weight: 400 !important;
+    /* font-family:sans-serif; */
+}
+.btn:hover{
+    /* background-color: rgb(148, 148, 148) !important; */
+    color: rgb(0, 0, 0) !important;
+}
+
+body {
+    background-color: transparent;
+}
+
+.card {
+    border: none;
+}
+
+.card-color{
+    background-color: red;
+}
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+.user-image{
+    height: 100px;
+}
+
+.ratings i {
+    color: blue;
+}
+.a-cards{
+    width: 100%;
+}
+
+
 .toggle
 {
   position: relative;
@@ -105,12 +139,12 @@ h1{
 
 .social
 {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   bottom: 20px;
   right: 20px;
   /* display: flex; */
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .social li
@@ -160,7 +194,15 @@ h1{
   color: #3f3f3f; 
 }
 
+.projects {
+    margin-left: 90px !important;
+}
 
+@media (max-width: 768px) {
+    .projects {
+        margin-left: 25px !important;
+    }
+}
 
 @media (max-width: 991px)
 {
@@ -185,7 +227,17 @@ h1{
   .crsl{
     width: 85%;
 }
-  .social li a{
-    margin-right: 20px;
-  }
+.social li a
+{
+   margin-right: 20px;
+  /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
 }
+  .a-cards{
+    width: 85%;
+
+}
+}
+

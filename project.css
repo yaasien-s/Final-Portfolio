@@ -30,12 +30,12 @@ h1{
     text-align: center;
 }
 h5{
-    font-weight: 400 !important;
+    font-weight: 200 !important;
     /* font-family:sans-serif; */
 }
 .btn:hover{
-    /* background-color: rgb(148, 148, 148) !important; */
-    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    color: rgb(172, 170, 170) !important;
 }
 
 body {
@@ -113,7 +113,7 @@ body {
   object-fit: cover;
   opacity: 0.8;
 } */
-.overlay
+/* .overlay
 {
   position: absolute;
   top: 0;
@@ -122,10 +122,10 @@ body {
   height: 100%;
   background: #3a3a3a;
   mix-blend-mode: overlay;
-  /* background-image: url(E1XW7TEWUAUpAt9.jpg);
+  background-image: url(E1XW7TEWUAUpAt9.jpg);
   background-size: cover;
-  background-repeat: no-repeat; */
-}
+  background-repeat: no-repeat;
+} */
 
 .text p
 {
@@ -139,13 +139,15 @@ body {
 
 .social
 {
-  position: fixed;
+  /* position: relative; */
   z-index: 10;
-  bottom: 20px;
-  right: 20px;
+  /* bottom: 5px !important; */
+  /* right: 20px; */
   /* display: flex; */
-  /* justify-content: center; */
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 0%;
+  margin-left: 29%;
 }
 .social li
 {
@@ -154,16 +156,26 @@ body {
 .social li a
 {
   /* display: inline-block; */
-   margin-right: 79px;
-  float: right;
+   margin-left: 50px;
+  float: left;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
+
 }
 .social li a:hover
 {
   transform: scale(0.5) translateY(-15px);
 }
+.ft{
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 22, 22);
+    width: 100% !important;
+    height: 55px;
+    margin-bottom: 0%;
+    /* position: relative; */
+}
+
 .menu
 {
   position: absolute;
@@ -224,12 +236,13 @@ body {
       background-position: center;
   }
 
-  .crsl{
-    width: 85%;
+.social{
+    margin-left: 5%;
 }
 .social li a
 {
    margin-right: 20px;
+   margin-left: 10px;
   /* float: right;
   filter: invert(1);
   transform: scale(0.5);

@@ -90,7 +90,14 @@ header .logo
   position: relative;
   z-index: 10;
   margin-right: 180px;
+  margin-top: 70px;
   
+}
+h1{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 /* .text h2
@@ -111,11 +118,11 @@ header .logo
 } */
 .text p
 {
-  font-size: 1.13em;
+  font-size: 1.1em;
   color: #fff;
   margin: 20px 0;
   font-weight: 200;
-  /* max-width: 700px; */
+  max-width: 750px;
 }
 /* .text a
 {
@@ -155,6 +162,7 @@ img{
   justify-content: center;
   align-items: center;
 }
+
 .social li
 {
   list-style: none;
@@ -162,7 +170,7 @@ img{
 .social li a
 {
   /* display: inline-block; */
-   margin-right: 78px;
+   margin-right: 50px;
   float: right;
   filter: invert(1);
   transform: scale(0.5);
@@ -210,20 +218,26 @@ img{
   {
     padding: 40px;
   }
-  /* .text h2
+  .text h2
   {
     font-size: 2.8em;
   }
   .text h3
   {
     font-size: 1.7em;
-  } */
+  }
 
   .overlay{
       background-position: center;
   }
 
-  /* .social{
-    margin-right: -60px;
-  } */
+  .social li a
+{
+
+   margin-right: 1px;
+
+}
+  .text p{
+    max-width: 300px;
+  }
 }

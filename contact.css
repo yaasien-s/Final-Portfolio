@@ -185,36 +185,23 @@ h5{
       background-position: center;
   }
 
-.social{
-    margin-left: 5%;
-}
-.social li a
-{
-   margin-right: 20px;
-   margin-left: 10px;
-  /* float: right;
-  filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s; */
-}
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 0px;
+    margin-left: 10% !important;
+    padding-left: 0;
+
+    /* filter: invert(1);
+      transform: scale(0.5);
+      transition: 0.5s; */
+  }
 
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
-
-*, body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-html, body {
-    height: 100%;
-    background-color: #152733;
-    overflow: hidden;
-} */
 
 
 .form-holder {
@@ -358,7 +345,20 @@ html, body {
     margin-top: 15px;
 }
 
-@media (max-width: 991px)
+@media (max-width: 380px)
 {
-  
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
 }

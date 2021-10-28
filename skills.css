@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-header
-{
+
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -18,14 +18,14 @@ header
   justify-content: space-between;
   align-items: center;
 }
-header .logo
-{
+
+header .logo {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
 }
-.toggle
-{
+
+.toggle {
   position: relative;
   width: 60px;
   height: 60px;
@@ -35,16 +35,16 @@ header .logo
   background-position: center;
   cursor: pointer;
 }
-.toggle.active
-{
+
+.toggle.active {
   background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
   cursor: pointer;
 }
-.showcase
-{
+
+.showcase {
   position: absolute;
   right: 0;
   width: 100%;
@@ -57,8 +57,8 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
-.showcase.active
-{
+
+.showcase.active {
   right: 300px;
 }
 
@@ -72,8 +72,7 @@ header .logo
   object-fit: cover;
   opacity: 0.8;
 } */
-.overlay
-{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -86,8 +85,7 @@ header .logo
   background-repeat: no-repeat; */
 }
 
-.text p
-{
+.text p {
   font-size: 1.2em;
   color: #fff;
   margin: 20px 0;
@@ -96,58 +94,60 @@ header .logo
 }
 
 
-.sicons{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.sicons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 
 }
 
-.sicons :hover{
-    transform: scale(1.05) translateY(-15px);
-    transition: 0.5s;
+.sicons :hover {
+  transform: scale(1.05) translateY(-15px);
+  transition: 0.5s;
 }
 
-.social
-{
+.social {
   /* position: relative; */
   z-index: 10;
   /* bottom: 5px !important; */
   /* right: 20px; */
   /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  align-content: center;
   margin-bottom: 0%;
   margin-left: 29%;
 }
-.social li
-{
+
+.social li {
   list-style: none;
 }
-.social li a
-{
+
+.social li a {
   /* display: inline-block; */
-   margin-left: 50px;
+  margin-left: 50px;
   float: left;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
 
 }
-.social li a:hover
-{
+
+.social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
-.ft{
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 22, 22);
-    width: 100% !important;
-    height: 55px;
-    margin-bottom: 0%;
-    /* position: relative; */
+
+.ft {
+  color: rgb(255, 255, 255);
+  background-color: rgb(22, 22, 22);
+  width: 100% !important;
+  height: 55px;
+  margin-bottom: 0%;
+  /* position: relative; */
 }
-.menu
-{
+
+.menu {
   position: absolute;
   top: 0;
   right: 0;
@@ -157,70 +157,86 @@ header .logo
   justify-content: center;
   align-items: center;
 }
-.menu ul
-{
+
+.menu ul {
   position: relative;
 }
-.menu ul li
-{
+
+.menu ul li {
   list-style: none;
 }
-.menu ul li a
-{
+
+.menu ul li a {
   text-decoration: none;
   font-size: 24px;
   color: #111;
 }
-.menu ul li a:hover
-{
-  color: #3f3f3f; 
+
+.menu ul li a:hover {
+  color: #3f3f3f;
 }
 
-h1{
-    text-align: center;
-    color: white;
+h1 {
+  text-align: center;
+  color: white;
 }
 
 
-@media (max-width: 991px)
-{
+@media (max-width: 991px) {
+
   .showcase,
-  .showcase header
-  {
+  .showcase header {
     padding: 40px;
   }
-  .text h2
-  {
+
+  .text h2 {
     font-size: 2.8em;
   }
-  .text h3
-  {
+
+  .text h3 {
     font-size: 1.7em;
   }
-  
-  /* .sicons{
-    display: grid;
-    justify-content: center;
-    margin-top: 30px;
-  } */
-    .social{
-        margin-left: 5%;
-    }
-    .social li a {
-       margin-right: 20px;
-       margin-left: 10px;
-      /* float: right;
-      filter: invert(1);
-      transform: scale(0.5);
-      transition: 0.5s; */
-    }
 
-
-  .overlay{
-      background-position: center;
+  .social {
+    margin-left: 0;
+    padding-left: 0;
   }
 
-  /* .social{
-    margin-right: -60px;
-  } */
+  .social li a {
+    margin-right: 0px;
+    margin-left: 10%;
+    padding-left: 0;
+
+    /* filter: invert(1);
+      transform: scale(0.5);
+      transition: 0.5s; */
+  }
+
+
+  .overlay {
+    background-position: center;
+  }
+
+
+}
+
+@media (max-width: 380px) {
+  .sicons {
+    display: grid;
+  }
+
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
 }

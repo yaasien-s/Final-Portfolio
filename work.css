@@ -103,8 +103,8 @@ header .logo
   /* bottom: 5px !important; */
   /* right: 20px; */
   /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
   margin-bottom: 0%;
   margin-left: 29%;
 }
@@ -185,19 +185,38 @@ header .logo
   .overlay{
       background-position: center;
   }
-  .social{
-    margin-left: 5%;
+
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 0px;
+    margin-left: 10%;
+    padding-left: 0;
+
+    /* filter: invert(1);
+      transform: scale(0.5);
+      transition: 0.5s; */
+  }
 }
-.social li a {
-   margin-right: 20px;
-   margin-left: 10px;
-  /* float: right;
+
+
+@media (max-width: 380px)
+{
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 0;
+    /* float: right;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s; */
-}
-
-  /* .social{
-    margin-right: -60px;
-  } */
+  }
 }

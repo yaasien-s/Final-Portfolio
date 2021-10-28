@@ -198,11 +198,11 @@ h1{
     font-size: 1.7em;
   }
   
-  .sicons{
+  /* .sicons{
     display: grid;
     justify-content: center;
     margin-top: 30px;
-  }
+  } */
     .social{
         margin-left: 5%;
     }

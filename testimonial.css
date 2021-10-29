@@ -124,7 +124,9 @@ header .logo {
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
-
+.alx{
+  height: 100% !important;
+}
 .ft {
   color: rgb(255, 255, 255);
   background-color: transparent;
@@ -252,6 +254,9 @@ h1 {
   transition: 0.5s; */
   }
 
+  .alx{
+    height: 100%;
+  }
   .clr {
     color: black;
     font-weight: 400 !important;
@@ -282,6 +287,9 @@ h1 {
   transition: 0.5s; */
   }
 
+  .alx{
+    height: 100%;
+  }
   .clr {
     color: black;
     font-weight: 400 !important;

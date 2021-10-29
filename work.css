@@ -86,6 +86,10 @@ header .logo
   background-repeat: no-repeat; */
 }
 
+h1{
+  color: rgb(126, 126, 126) !important;
+}
+
 .text p
 {
   font-size: 1.2em;
@@ -203,8 +207,8 @@ header .logo
 }
 
 
-@media (max-width: 380px)
-{
+@media (max-width: 430px) {
+
   .social {
     margin-left: 0;
     padding-left: 0;
@@ -212,7 +216,24 @@ header .logo
 
   .social li a {
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+}
+
+@media (max-width: 400px){
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px !important;
     padding-left: 0;
     /* float: right;
   filter: invert(1);

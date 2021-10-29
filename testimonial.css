@@ -166,7 +166,7 @@ header .logo {
 
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(126, 126, 126) !important;
 }
 
 
@@ -212,7 +212,7 @@ h1 {
 }
 
 .clr {
-  color: white;
+  color: black;
   font-weight: 400 !important;
 }
 
@@ -224,8 +224,46 @@ h1 {
   color: #496163;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 500px){
 
+  .clr1 {
+    display: none;
+  }
+  
+  .clr2 {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+  .clr {
+    color: black;
+    font-weight: 400 !important;
+  }
+  .clr1 {
+    display: none;
+  }
+  
+  .clr2 {
+    display: none;
+  }
+}
+
+@media (max-width: 400px){
   .social {
     margin-left: 0;
     padding-left: 0;
@@ -239,5 +277,16 @@ h1 {
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s; */
+  }
+  .clr {
+    color: black;
+    font-weight: 400 !important;
+  }
+  .clr1 {
+    color: black;
+  }
+  
+  .clr2 {
+    color: black;
   }
 }

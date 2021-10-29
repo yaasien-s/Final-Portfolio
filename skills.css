@@ -98,6 +98,8 @@ header .logo {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  margin-right: 0%;
+  margin-left: 0%;
 
 }
 
@@ -178,7 +180,7 @@ header .logo {
 
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(126, 126, 126) !important;
 }
 
 
@@ -220,10 +222,8 @@ h1 {
 
 }
 
-@media (max-width: 380px) {
-  .sicons {
-    display: grid;
-  }
+@media (max-width: 430px) {
+
 
   .social {
     margin-left: 0;
@@ -232,7 +232,24 @@ h1 {
 
   .social li a {
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+}
+
+@media (max-width: 400px){
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px !important;
     padding-left: 0;
     /* float: right;
   filter: invert(1);

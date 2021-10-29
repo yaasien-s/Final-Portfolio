@@ -85,6 +85,11 @@ h5{
   /* max-width: 700px; */
 }
 
+h1{
+  color: rgb(126, 126, 126) !important;
+
+}
+
 
 .social
 {
@@ -345,8 +350,25 @@ h5{
     margin-top: 15px;
 }
 
-@media (max-width: 380px)
-{
+@media (max-width: 430px) {
+
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+}
+
+@media (max-width: 400px){
   .social {
     margin-left: 0;
     padding-left: 0;

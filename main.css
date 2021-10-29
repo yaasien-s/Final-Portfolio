@@ -95,7 +95,7 @@ header .logo
 .text h2
 {
   font-size: 4.5em;
-  font-weight: 450;
+  font-weight: 350;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
@@ -103,7 +103,7 @@ header .logo
 .text h3
 {
   font-size: 3.5em;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
@@ -147,7 +147,7 @@ header .logo
   /* justify-content: center;
   align-items: center; */
   margin-bottom: 0%;
-  margin-left: 29%;
+  margin-left: 28%;
 }
 .social li
 {
@@ -241,8 +241,8 @@ header .logo
 }
 }
 
-@media (max-width: 380px)
-{
+@media (max-width: 430px) {
+
   .social {
     margin-left: 0;
     padding-left: 0;
@@ -250,7 +250,24 @@ header .logo
 
   .social li a {
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+}
+
+@media (max-width: 400px){
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px !important;
     padding-left: 0;
     /* float: right;
   filter: invert(1);

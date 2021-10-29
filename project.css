@@ -26,7 +26,7 @@ header .logo
 }
 
 h1{
-    color: white;
+  color: rgb(126, 126, 126) !important;
     text-align: center;
 }
 h5{
@@ -57,9 +57,7 @@ body {
     height: 100px;
 }
 
-.ratings i {
-    color: blue;
-}
+
 .a-cards{
     width: 100%;
 }
@@ -254,8 +252,8 @@ body {
 }
 }
 
-@media (max-width: 380px)
-{
+@media (max-width: 430px) {
+
   .social {
     margin-left: 0;
     padding-left: 0;
@@ -263,7 +261,24 @@ body {
 
   .social li a {
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px !important;
+    padding-left: 0;
+    /* float: right;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s; */
+  }
+}
+
+@media (max-width: 400px){
+  .social {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .social li a {
+    margin-right: 20px;
+    margin-left: 10px !important;
     padding-left: 0;
     /* float: right;
   filter: invert(1);

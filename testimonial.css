@@ -224,16 +224,17 @@ h1 {
   color: #496163;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
   .clr1 {
     display: none;
   }
-  
+
   .clr2 {
     display: none;
   }
 }
+
 @media (max-width: 430px) {
 
   .social {
@@ -250,20 +251,22 @@ h1 {
   transform: scale(0.5);
   transition: 0.5s; */
   }
+
   .clr {
     color: black;
     font-weight: 400 !important;
   }
+
   .clr1 {
     display: none;
   }
-  
+
   .clr2 {
     display: none;
   }
 }
 
-@media (max-width: 400px){
+@media (min-width: 380px) {
   .social {
     margin-left: 0;
     padding-left: 0;
@@ -278,14 +281,16 @@ h1 {
   transform: scale(0.5);
   transition: 0.5s; */
   }
+
   .clr {
     color: black;
     font-weight: 400 !important;
   }
+
   .clr1 {
     color: black;
   }
-  
+
   .clr2 {
     color: black;
   }

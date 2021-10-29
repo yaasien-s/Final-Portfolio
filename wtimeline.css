@@ -40,15 +40,22 @@ h1 {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
+
 .timeline ul {
   background: transparent;
   padding: 50px 0;
 }
 
+.timeline p{
+  opacity: 1 !important;
+}
 .timeline ul li {
   list-style-type: none;
   position: relative;
   width: 6px;
+  color: #ffffff;
+  opacity: 1;
   margin: 0 auto;
   padding-top: 50px;
   background: transparent;
@@ -72,7 +79,8 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #ffffff;
+  background: #000000;
+  opacity: 0.5 !important;
   border-radius: 12px;
 }
 
@@ -92,7 +100,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #ffffff transparent transparent;
+  border-color: transparent #000000 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -102,7 +110,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #000000;
 }
 
 time {
@@ -122,6 +130,7 @@ time {
 
 .timeline ul li.in-view::after {
   background: #000000;
+  opacity: 0.4;
 }
 
 .timeline ul li div {

@@ -89,13 +89,13 @@ h1 {
   color: rgb(126, 126, 126) !important;
 }
 
-.text p {
+/* .text p {
   font-size: 1.2em;
   color: #fff;
   margin: 20px 0;
-  font-weight: 200;
+  font-weight: 200; */
   /* max-width: 700px; */
-}
+
 
 
 .social {
